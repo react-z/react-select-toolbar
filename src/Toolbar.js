@@ -16,7 +16,7 @@ export default class extends Component {
       position: { left: -20, top: 0 },
       toolbarLeft: '-20px'
     }
-    this.renderButton = ::this.renderButton
+    this.renderButton = this.renderButton.bind(this)
   }
 
   componentDidUpdate () {

@@ -1,6 +1,6 @@
-import SelectToolbar from '../lib/' // 'react-select-toolbar'
+import SelectToolbar from '../src/' // 'react-select-toolbar'
 import ReactDOM from 'react-dom'
-import React, { Component, PropTypes } from 'react'
+import React from 'react'
 
 const TestComponent = () => (
 	<div>

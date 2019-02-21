@@ -2,6 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/react-select-toolbar.svg)](https://badge.fury.io/js/react-select-toolbar)
 
+![](https://raw.githubusercontent.com/StevenIseki/react-select-toolbar/master/example/screenshot.gif)
+
 A select toolbar for sharing text highlights similar to medium
 
 ## Installation
@@ -10,7 +12,7 @@ A select toolbar for sharing text highlights similar to medium
 
 ## Usage
 
-```javascript
+```jsx
 import SelectToolbar from 'react-select-toolbar'
 import ReactDOM from 'react-dom'
 import React, { Component, PropTypes } from 'react'
@@ -29,14 +31,20 @@ ReactDOM.render( <TestComponent />, document.getElementById('root') )
 
 ## Styles
 
-react-select-toolbar uses styled-components. So you will need this added to your dependencies. You can port it over to another css in js library fairly easily.
+react-select-toolbar uses uses styled-components 💅 for the base styling.
 
 ## Development
+    yarn
+    npm run dev
 
-    yarn install
+## Build
+    yarn
     npm run build
-    npm test
-    npm start
+    npm login
+    npm version patch
+    git add -A
+    git push origin master
+    npm publish
 
 ## License
 
