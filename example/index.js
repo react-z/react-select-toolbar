@@ -1,4 +1,4 @@
-import SelectToolbar from '../src/' // 'react-select-toolbar'
+import SelectToolbar from '../lib/' // 'react-select-toolbar'
 import ReactDOM from 'react-dom'
 import React from 'react'
 
