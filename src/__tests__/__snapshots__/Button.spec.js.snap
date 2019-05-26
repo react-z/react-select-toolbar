@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly and matches snapshot 1`] = `
+<li
+  className="sc-bdVaJa cFyHDk"
+>
+  <span
+    className="sc-htpNat fHQAuj"
+  >
+    facebook
+  </span>
+  <div
+    className="sc-bwzfXH inRAPE"
+    onClick={[Function]}
+  >
+    <svg
+      className="sc-bxivhb cZkvWD"
+      fill="currentColor"
+      height="24"
+      viewBox="0 0 430.113 430.114"
+      width="24"
+    >
+      <path
+        d="M158.08 83.3v59.218h-43.384v72.412h43.385v215.183h89.123V214.936h59.805s5.6-34.72 8.316-72.685H247.54V92.74c0-7.4 9.717-17.354 19.32-17.354h48.558V0h-66.02c-93.52-.004-91.317 72.48-91.317 83.3z"
+      />
+    </svg>
+  </div>
+</li>
+`;

@@ -35,11 +35,16 @@ react-select-toolbar uses uses styled-components 💅 for the base styling.
 
 ## Development
     yarn
-    npm run dev
+    yarn dev
+
+## Test
+    yarn test
 
 ## Build
     yarn
-    npm run build
+    yarn build
+
+## Publish
     npm login
     npm version patch
     git add -A
